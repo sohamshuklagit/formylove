@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine Website 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- BACKGROUND BUBBLES -->
+<div class="bubble" style="left:10%"></div>
+<div class="bubble" style="left:30%"></div>
+<div class="bubble" style="left:50%"></div>
+<div class="bubble" style="left:70%"></div>
+<div class="bubble" style="left:90%"></div>
+
+<!-- PAGE 1 -->
+<section id="page1" class="page active">
+  <div class="container">
+    <h1 class="title">Hey love, this is for you 💗</h1>
+    <div class="card caption-card">
+  <p class="caption-line">Hey love.</p>
+  <p class="caption-line">Some things don’t need a big moment.</p>
+  <p class="caption-line">They just need honesty.</p>
+  <p class="caption-line">Thank you for being my calm.</p>
+  <p class="caption-line">My laughter.</p>
+  <p class="caption-line">My constant.</p>
+  <p class="caption-line">This is me choosing you.</p>
+</div>
+
+
+    
+
+    <div class="card">
+      <h2>Voice Note (Song)</h2>
+      <div class="voice-note">
+        <button id="playBtn">▶️ Play</button>
+        <audio id="audio" src="your-audio.mp3"></audio>
+        <span id="duration">00:00</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Our Moments</h2>
+      <div class="gallery">
+        <img src="images/couple1.jpg" />
+        <img src="images/couple2.jpg" />
+        <img src="images/couple4.jpg" />
+      </div>
+    </div>
+
+    <button class="btn" id="nextBtn">Next 💖</button>
+  </div>
+</section>
+
+<!-- PAGE 2 -->
+<section id="page2" class="page">
+  <div class="container">
+   <div class="card">
+      <h2>Gratitude Video</h2>
+      <video controls>
+        <source src="your-video.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <button class="btn" id="nextToQuestion">One more thing 💖</button>
+  </div>
+</section>
+
+<!-- PAGE 3 -->
+<section id="page3" class="page">
+  <div class="container">
+    <h1 id="question">Will you be my Valentine? 💘</h1>
+
+    <div class="cat">
+      <img id="catImg" src="images/cat-happy.png" />
+    </div>
+
+    <div class="buttons">
+      <button id="yesBtn" class="btn yes">YES 💖</button>
+      <button id="noBtn" class="btn no">NO</button>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL PAGE -->
+<section id="celebrate" class="page">
+  <div class="celebrate-container">
+    <h1>YaaYYYYY!! 💖</h1>
+    <p>Thank You Darling 😌</p>
+
+    <video controls class="final-video">
+      <source src="final-message.mp4" type="video/mp4" />
+    </video>
+
+    <div class="heart-field">
+      <span>💖</span><span>💗</span><span>💕</span><span>💘</span><span>💓</span>
+      <span>💖</span><span>💗</span><span>💕</span><span>💘</span><span>💓</span>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
